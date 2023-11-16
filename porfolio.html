@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sundas Amjad - Portfolio</title>
+    <!--link rel="portstyle" type="text/css" href="portstyle.css"-->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+           .container {
+            display: flex;
+            height: 100vh; /* 100% of the viewport height */
+      }
+        .image-section,
+        .text-section {
+            flex: 1; /* Take up 50% of the container */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+           .image-section img {
+            max-width: 50%; /* Make sure the image doesn't exceed its container */
+            height: auto;
+            border: 1px solid #ccc; /* Optional: Add a border around the image */
+        }
+
+        .text-content {
+            text-align: center;
+            max-width: 500px; /* Adjust as needed */
+        }
+
+       
+
+        header, footer {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+        
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #34495e;
+            padding: 0.5em 0;
+        }
+
+        nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            padding: 0.5em 1em;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        section h2 {
+            color: #3498db;
+        
+    
+        }
+        
+
+
+        section p {
+            line-height: 1.6;
+        }
+
+        .skills ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .skills li {
+            background-color: #3498db;
+            color: #ecf0f1;
+            padding: 0.5em;
+            margin: 0.5em;
+            border-radius: 5px;
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .project {
+            background-color: #ecf0f1;
+            padding: 1em;
+            margin: 1em;
+            border-radius: 5px;
+        }
+
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contact input, .contact textarea {
+            margin: 0.5em;
+            padding: 0.5em;
+            width: 70%;
+        }
+
+        .contact button {
+            background-color: #3498db;
+            color: #ecf0f1;
+            padding: 0.5em 1em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Sundas Amjad</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    
+        <section id="about">
+    <h2>About Me</h2>
+      <!-- Hero image -->  
+      <div class="container">
+        <div class="image-section">
+            <img src="C:\Users\35192\Desktop\1x\prof pic.jpeg" alt="Your Image">
+        </div>
+        <div class="text-section">
+            <div class="text-content">
+                <h3>Hi there! I'm Sundas Amjad, a Web developer with a passion for creating landing pages and e-commerce websites of wordpress. I have a background in web development, and I'm dedicated to be a good web developer. My journey in Virtual University has equipped me with skills in HTML and CSS and wordpress. </h3>
+                
+            </div>
+        </div>
+    </div>
+     
+
+    
+
+</section>
+
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>wordpress</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Project1</h2>
+
+        <img src="C:\Users\35192\Desktop\1x\Screenshot 2023-10-21 101255.png" alt="Your Image">
+
+        <div class="project">
+            <h3>Description</h3>
+            <h3>E-commerce clothing store</h3>
+            <ul><li>Product Variety: E-commerce clothing stores offer a diverse range of products to cater to different styles, preferences, and occasions. This includes items such as shirts, dresses, pants, shoes, accessories, and more.</li>
+
+<li>User-Friendly Interface: These stores typically have a user-friendly interface that allows customers to easily navigate through the product catalog, filter and search for specific items, and view detailed product descriptions and images.</li>
+
+<li>Online Shopping Cart: Customers can add selected items to a virtual shopping cart, review their choices, and proceed to a secure online checkout process.</li>
+
+<li>Secure Transactions: E-commerce clothing stores prioritize the security of online transactions,</li></ul>
+        </div>
+        <div class="project">
+            <h2>Project 2</h2>
+            <img src="C:\Users\35192\Downloads\WhatsApp Image 2023-11-15 at 1.56.33 PM.jpeg" alt="restaurant website">
+
+<h3>Description</h3>
+            <p>An online food ordering website is a digital platform that allows users to browse, select, and order food from local restaurants. These websites typically feature user-friendly interfaces, menu displays, and secure payment options. Users can choose from a variety of cuisines, customize orders, and have the food delivered to their doorstep. With features such as order tracking, reviews, and promotions, these websites aim to provide a convenient and efficient way for customers to enjoy a diverse range of meals without leaving their homes.</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>This is my CV. please download it from the below link.</p>
+            <a href="C:\Users\35192\Downloads\cv (1).pdf">CV download .</a>
+        
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>This is my Email contact me at this</p>
+<a href="sundasamjadsundasamjad786@gmail.com">sundasamjadsundasamjad786@gmail.com .</a>
+        
+           
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Sundas Amjad. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
